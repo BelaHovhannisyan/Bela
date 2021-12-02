@@ -21,5 +21,10 @@ namespace Bela
         {
             Application.Exit();
         }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+            BackColor = Color.Aqua;
+        }
     }
 }
